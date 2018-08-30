@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<declare-styleable name="NumberPickerPreference">-->
+        <!--<attr name="in_hour" format="integer" />-->
+        <!--<attr name="in_minute" format="integer" />-->
+        <!--<attr name="out_hour" format="integer" />-->
+        <!--<attr name="out_minute" format="integer" />-->
+    <!--</declare-styleable>-->
+</resources>

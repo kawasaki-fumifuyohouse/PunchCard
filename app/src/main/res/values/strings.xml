@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">PunchCard</string>
+
+    <string name="record_label_in">IN</string>
+    <string name="record_label_out">OUT</string>
+    <string name="record_button_label_in">IN</string>
+    <string name="record_button_label_out">OUT</string>
+
+    <string name="action_settings">設定</string>
+    <string name="action_list">一覧</string>
+    <string name="action_share">共有</string>
+
+    <string name="settings_default_label">基本設定</string>
+    <string name="settings_in_label">出勤時間</string>
+    <string name="settings_out_label">退勤時間</string>
+    <string name="settings_break_start_label">休憩開始時間</string>
+    <string name="settings_break_end_label">休憩終了時間</string>
+
+    <string name="error_title_edit">入力内容を確認してください</string>
+    <string name="error_title_share">共有に失敗しました</string>
+    <string name="error_intime_after_outtime">出勤時間は退勤時間の前にしてください。</string>
+    <string name="error_breakstart_after_breakend">休憩開始時間は休憩終了時間の前にしてください。</string>
+    <string name="error_breakstart_not_range">休憩開始時間が勤務時間外です。</string>
+    <string name="error_breakend_not_range">休憩終了時間が勤務時間外です。</string>
+    <string name="error_share_no_data">出力できるデータがありません。</string>
+
+    <string name="list_share_title">出勤記録</string>
+
+    <string name="pref_key_in_time">in_time</string>
+    <string name="pref_key_out_time">out_time</string>
+    <string name="pref_key_break_start_time">break_start_time</string>
+    <string name="pref_key_break_end_time">break_end_time</string>
+
+    <string name="pref_default_in_time">10:00</string>
+    <string name="pref_default_out_time">19:00</string>
+    <string name="pref_default_break_start_time">13:00</string>
+    <string name="pref_default_break_end_time">14:00</string>
+
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_confirm_delete_witin_period">期間内のデータをすべて削除します。よろしいですか？</string>
+</resources>

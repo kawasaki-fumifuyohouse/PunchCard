@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_default_label">
+
+        <com.fumifuyohouse.punchcard.preference.NumberPickerPreference
+            android:defaultValue="10:00"
+            android:key="@string/pref_key_in_time"
+            android:title="@string/settings_in_label" />
+
+        <com.fumifuyohouse.punchcard.preference.NumberPickerPreference
+            android:defaultValue="19:00"
+            android:key="@string/pref_key_out_time"
+            android:title="@string/settings_out_label" />
+
+        <com.fumifuyohouse.punchcard.preference.NumberPickerPreference
+            android:defaultValue="13:00"
+            android:key="@string/pref_key_break_start_time"
+            android:title="@string/settings_break_start_label" />
+
+        <com.fumifuyohouse.punchcard.preference.NumberPickerPreference
+            android:defaultValue="14:00"
+            android:key="@string/pref_key_break_end_time"
+            android:title="@string/settings_break_end_label" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

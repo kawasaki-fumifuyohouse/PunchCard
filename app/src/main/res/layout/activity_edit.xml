@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:id="@+id/label_in"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="IN"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@id/datepicker_in"
+        app:layout_constraintLeft_toRightOf="@id/guideline_left_vertical"
+        app:layout_constraintRight_toLeftOf="@id/guideline_center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/datepicker_in"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2000/01/01"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/timepicker_in"
+        app:layout_constraintLeft_toRightOf="@id/guideline_left_vertical"
+        app:layout_constraintRight_toLeftOf="@id/guideline_center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/label_in" />
+
+    <TextView
+        android:id="@+id/timepicker_in"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="10:00"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@id/label_break_start"
+        app:layout_constraintLeft_toRightOf="@id/guideline_left_vertical"
+        app:layout_constraintRight_toLeftOf="@id/guideline_center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/datepicker_in" />
+
+    <TextView
+        android:id="@+id/label_break_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Break"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@id/timepicker_break_start"
+        app:layout_constraintLeft_toRightOf="@id/guideline_left_vertical"
+        app:layout_constraintRight_toLeftOf="@id/guideline_center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/label_in"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/timepicker_break_start"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="13:00"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_bottom_horizontal"
+        app:layout_constraintLeft_toRightOf="@id/guideline_left_vertical"
+        app:layout_constraintRight_toLeftOf="@id/guideline_center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/label_break_start" />
+
+    <TextView
+        android:id="@+id/label_out"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="OUT"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@id/datepicker_out"
+        app:layout_constraintLeft_toRightOf="@id/guideline_center_vertical"
+        app:layout_constraintRight_toLeftOf="@id/guideline_right_vertical"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/datepicker_out"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2000/01/01"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/timepicker_out"
+        app:layout_constraintLeft_toRightOf="@id/guideline_center_vertical"
+        app:layout_constraintRight_toLeftOf="@id/guideline_right_vertical"
+        app:layout_constraintTop_toBottomOf="@id/label_out" />
+
+    <TextView
+        android:id="@+id/timepicker_out"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="19:00"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@id/label_break_start"
+        app:layout_constraintLeft_toRightOf="@id/guideline_center_vertical"
+        app:layout_constraintRight_toLeftOf="@id/guideline_right_vertical"
+        app:layout_constraintTop_toBottomOf="@id/datepicker_out" />
+
+    <TextView
+        android:id="@+id/label_break_end"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Finish Break"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toTopOf="@id/timepicker_break_end"
+        app:layout_constraintLeft_toRightOf="@id/guideline_center_vertical"
+        app:layout_constraintRight_toLeftOf="@id/guideline_right_vertical"
+        app:layout_constraintTop_toBottomOf="@id/label_out"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/timepicker_break_end"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="14:00"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_bottom_horizontal"
+        app:layout_constraintLeft_toRightOf="@id/guideline_center_vertical"
+        app:layout_constraintRight_toLeftOf="@id/guideline_right_vertical"
+        app:layout_constraintTop_toBottomOf="@id/label_break_end" />
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="決定"
+        android:textSize="26sp"
+        android:textColor="@color/white"
+        android:background="@color/colorAccent"
+        app:layout_constraintTop_toBottomOf="@id/guideline_bottom_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_left_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_right_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_bottom_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+</android.support.constraint.ConstraintLayout>

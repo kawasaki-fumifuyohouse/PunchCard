@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#e0ebaf</color>
+    <color name="colorPrimaryDark">#5c9291</color>
+    <color name="colorAccent">#e6b422</color>
+
+    <color name="in_button">#00bcd4</color>
+    <color name="in_button_pressed">#aa00bcd4</color>
+    <color name="in_button_unable">#4000bcd4</color>
+    <color name="out_button">#FACC2E</color>
+    <color name="out_button_pressed">#AAFACC2E</color>
+    <color name="out_button_unable">#40FACC2E</color>
+    <color name="background">#E1F5A9</color>
+    <color name="errordialog_background">@color/colorPrimaryDark</color>
+
+    <color name="white">#ffffff</color>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">40dp</dimen>
+
+    <dimen name="record_button_size">120dp</dimen>
+    <dimen name="record_button_elevation">4dp</dimen>
+    <dimen name="record_button_fontsize">36sp</dimen>
+    <dimen name="record_label_fontsize">22sp</dimen>
+    <dimen name="record_date_value_fontsize">20sp</dimen>
+    <dimen name="record_time_value_fontsize">40sp</dimen>
+
+    <dimen name="list_rangetimebutton_minwidth">40dp</dimen>
+    <dimen name="list_rangebutton_minheight">40dp</dimen>
+    <dimen name="list_rangebutton_padding">7dp</dimen>
+    <dimen name="list_rangebutton_marginside">3dp</dimen>
+    <dimen name="list_rangebutton_margintop">5dp</dimen>
+
+
+</resources>
